@@ -1,0 +1,95 @@
+
+ /* import google text font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+/* utility css */   
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: auto
+}
+*{
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  
+}
+select{
+    padding: 8px 16px ;
+}
+
+/*  class base css */
+
+.section-body{
+    width: 60%;
+    margin-top: 50px;
+    margin-inline: auto;
+  border: 1px solid rgb(49, 48, 48);
+ 
+}
+.flex-culunm{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: block ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap : 10px;
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(167, 166, 166);
+    width: 90%;
+    margin-inline: auto;
+  
+}
+.border-none{
+    border: none;
+}
+.header{
+    margin: 15px;
+    
+}
+.contend{
+    background-color: rgba(219, 213, 213, 0.699);
+    padding: 10px;
+
+}
+.form-input-right{
+    width: 60%;
+    justify-content: end;
+}
+.form-input-right img {
+    margin-right: 10px;
+}
+
+
+.btn{
+    padding: 8px 24px;
+}
+.form-input{
+    padding: 6px 30px;
+}
+input.btn {
+ border : 2px soliD rgb(228, 182, 182) ;
+
+}
+.person-mar{
+    margin-left: 30px;
+}
+img{
+     width: 25px;
+}
+.flex-end{
+    justify-content:space-between;
+}
+
+
+    
+    
+
+
