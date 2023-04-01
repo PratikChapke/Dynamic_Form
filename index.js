@@ -1,3 +1,4 @@
+//  fetch html Node 
 const contend = document.getElementById("contend")
 
  const Add_btn = document.getElementById("add-btn")
@@ -50,14 +51,11 @@ Add_btn.addEventListener('click',(e)=>{
      div.setAttributeNode(a) 
      div.setAttributeNode(changeId)
      div.innerHTML = contend.innerHTML
-    //   find the position 
-    // contend.appendChild(div1) ;
+    
     container.insertBefore(div, demo) 
    
-
-
 })
-
+//   handle Delete button 
  delete_btn.addEventListener('click',(event)=>{
    console.log(event.target.value)
    const id = event.target.value ;
